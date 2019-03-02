@@ -1,0 +1,353 @@
+https://material.io/design/environment/surfaces.html
+Material is always 1dp thick.
+Input events cannot pass through Material.
+Multiple Material elements cannot occupy the same point in space simultaneously.
+Material cannot pass through other Material.
+Material does not behave like a gas.
+Material does not behave like a liquid or gel.
+Material does not behave like a liquid.
+Material never bends or folds in ways that exceed the depth of the UI.
+
+https://material.io/design/environment/elevation.html
+Without visual cues of surface edges and overlap, it's not possible to determine how many surfaces are present, which surfaces are above the others, nor the degree of elevation between surfaces.
+The lack of shadows or scrimmed background makes it difficult to distinguish the dialog box from the background.
+The lack of shadows or other visual cues to indicate edges and surface overlap creates insufficient contrast between surfaces. As a result, it's difficult to understand which pieces of this UI are grouped together.
+Don't use shadows for style only.
+
+https://material.io/design/environment/light-shadows.html
+Shadow cast by key light
+Shadow cast by ambient light
+
+https://material.io/design/layout/component-behavior.html
+Don't use a container on fluid components if it's too narrow to display elements and padding at smaller widths.
+
+https://material.io/design/layout/density.html
+Don't apply high density to a date picker, as this reduces usability.
+Don't apply high density to dialogs, which reduces their readability and prominence.
+Don't use both a dense layout grid and dense components, as this will make it difficult to differentiate content groups.
+Don't use less than the minimum touch target size of 48dp for touch devices or devices that support both touch and click input methods.
+
+https://material.io/design/color/color-usage.html
+Since red is a brand color, don't also use it to convey an error state.
+
+https://material.io/design/color/text-legibility.html
+Avoid using opaque gray text that isn't legible on colored surfaces.
+
+https://material.io/design/typography/the-type-system.html
+Don't use expressive fonts for body text.
+Don't use expressive fonts for an overline.
+Don't use a display style for button text.
+
+https://material.io/design/iconography/product-icons.html
+Don't add too many layers.
+Don't use multiple scores or position a score off-center.
+Don't use spot color on folded elements, to avoid altering or misrepresenting key elements.
+Don't overlap more than two elements to avoid overcomplicating the icon.
+Don't exceed more than two accordion folds, as having too many complicates the icon and doesn't provide a clear focal point.
+Don't distort or transform product icons.
+
+https://material.io/design/iconography/system-icons.html
+Don't use delicate, thin stroke weights.
+Don't use gestural or loose organic shapes.
+Don't place the icon on a coordinate that isn't âon pixelâ.
+Don't use inconsistent stroke weights or rounded stroke terminals.
+Don't tilt, rotate, or make icons appear dimensional.
+Don't be overly literal. Avoid complex icons.
+
+https://material.io/design/shape/about-shape.html
+A semi-transparent surface and white color makes it hard to see the edges and shape of this floating action button.
+Don't use shapes in ways that create ambiguous meaning. This Cancel button's label text implies that it will return the user to a previous point in the flow, but the arrow-shaped button points forward, as though it continues the flow's progress.
+Don't use shapes that make components unrecognizable.
+Don't use shapes that interfere with a component's ability to receive user input. This button has a touch target that is too small.
+Don't use shapes that make a component unrecognizable. These buttons look very similar to the chips above them, which makes it difficult to distinguish the two components.
+
+https://material.io/design/shape/shape-hierarchy.html
+A shape is less likely to stand out when placed among similar shapes. This floating action button has the same shape as other elements, making it difficult to find.
+Don't use shape to imply that elements are related if they aren't. The shape of this dialog suggests it is related to the card behind it and to the right.
+
+https://material.io/design/shape/shape-as-expression.html
+Don't communicate state with shapes that are too small to be noticeable.
+Don't communicate state with a shape large enough to provide a tap target if it's not interactive.
+Don't reduce the usability of a component when using shape to express brand. The size of this shape interferes with the usability of the list.
+Don't use shapes that don't reflect a product's shape family.
+
+https://material.io/design/shape/shape-motion.html
+Avoid distorting shapes when stretching or shrinking a surface. This surface's proportions and rounded corners change as the surface stretches, creating a disconnect between its beginning and end states.
+Don't separate a surface from its content when morphing. The shape of this top app bar causes these action icons to appear separate from the surface.
+Choose shapes for expanded surfaces that are optimized for the content they display. This circular menu does not effectively display its content because it maintains the circular shape of the FAB.
+
+https://material.io/design/shape/applying-shape-to-ui.html
+Don't use percentage rounded corner on components that dynamically change in size.
+Don't customize corner shapes that are anchored to screen edges. 
+Mixing shapes can make it hard to distinguish a brand's style.
+This floating action button has the same shape as other elements, making it difficult to find.
+
+https://material.io/design/motion/understanding-motion.html
+
+
+https://material.io/design/motion/speed.html
+Avoid transitions that are too fast or slow.
+Avoid speeding up elements that should be slowing down, which creates a disorganized impression.
+
+https://material.io/design/motion/choreography.html
+Don't animate many elements in relation to each other. Individual movements compete for attention and divide focus.
+Don't let the UI  jump and shift abruptly, which can make it difficult to stay focused.
+Avoid groupings in which elements move within their container. Elements aren't grouped within the card during the transition, and the card clips the expanded layout on all four sides rather than just at the bottom.
+
+https://material.io/design/motion/customization.html
+Avoid techniques that conflict with the desired style. Stagger conflicts with this app's emphasis on efficiency. The elastic animated floating action button and oscillation are too playful for a productivity app.</p><p>1. Emphasized stagger </p><p>2. Animated icon </p><p>3. Oscillation
+Avoid obvious inconsistencies in the treatment of related screens. The list in Bills uses stagger, while the list in Budgets moves as a single element.
+A product icon animation shown with high frequency obstructs the user's journey.
+Avoid large adjustments to the default durations. Slowing this transition to 550ms could be too slow, and speeding it up to 115ms could be jarring.
+Don't allow arc motion and scroll direction to clash with one another.
+Gestures that don't use overshoot can feel robotic.
+Don't use oscillation in apps that require functional, efficient interactions.
+Avoid stretching elements other than simple shapes (circles, rectangles, and rounded rectangles), diagonal paths, or curves other than a perfect circle.
+Don't use character animation on UI components. The cartoon style of this floating action button is distracting in a task-based app.
+Don't stagger in a random order, which can divide user focus.
+Avoid prolonged delays between elements.
+
+https://material.io/design/interaction/gestures.html
+Avoid gestures that trigger an animation. Elements should be directly controlled by the user's touch.
+Don't misrepresent the velocity of a gesture in the resulting animation. The animation should match the speed of the user's touch.
+Avoid situations where a single gesture might produce two different results.
+Don't prevent users from fluidly transitioning between multiple gestures.
+
+https://material.io/design/interaction/selection.html
+Selected items should be distinct from unselected items. A darker scrim, or an additional signifier, such as a check mark, would better differentiate selected items.
+
+
+https://material.io/design/communication/empty-states.html
+Don't use a tagline worded like a call to action, as empty tags aren't interactive and don't respond when tapped. Images that express urgency or confusion should also be avoided.
+
+https://material.io/design/communication/help-feedback.html
+Don't use icon variations, such as those with speech bubbles or outlines.
+Don't use icon variations, such as chat or bug icons.
+Don't use icon variations or icons with speech bubbles or outlines.
+
+https://material.io/design/communication/imagery.html
+Don't crop an image in a way that doesn't show a clear focal point.
+Avoid using small file sizes that may result in pixelation of the image.
+This image doesn't have a caption or alt text. Screen readers will just read out âimageâ with no explanation of what the image is about.
+
+https://material.io/design/communication/launch-screen.html
+Don't display multiple progress indicators, which divide focus. 
+Don't display content that rearranges itself instantly as it loads, as this can produce a jarring experience.
+
+https://material.io/design/communication/onboarding.html
+Don't include selections that have no impact on their experience. While it may interest app makers how often a user checks their feed, it doesn't impact the user's experience.
+Don't ask users to make selections that will become evident with normal use of the app and that won't meaningfully change the first-run experience.
+Many Self-Select screens
+Don't leave users with nothing to do.
+Don't force education upfront.
+Don't leave users with nothing to do.
+There is no point of focus in this image.
+Showing the actual app's UI makes it unclear if the images are an illustration or an interactive element.
+
+https://material.io/design/communication/writing.html
+Don't list many complex implications when introducing a key action or concept.
+Don't embed instructions within lengthy descriptions.
+Don't write instructions that are longer than necessary to communicate an action.
+Tell the user how to take action, not that they should or must do so.
+Don't refer to the user in both the second person and the first person within the same phrase.
+Avoid providing details that aren't essential for the user to know, such as how an action or process is performed.
+Don't use technical jargon, unless it's critical to understanding the context.
+Don't use technical language to describe, unless it's necessary to understanding the context.
+Don't write in different variations of the present tense, such as the present perfect tense.
+Don't spell out numbers.
+If there is only a single sentence, don't place periods after body text.
+Don't state the action the user takes (âdrag a photoâ) before the objective (âto remove it from this albumâ).
+Don't describe an action using different verbs across your UI.
+Don't state both the label and the element on which it appears.
+
+https://material.io/design/components/app-bars-bottom.html
+Don't use a bottom app bar on screens with one or no actions (other than a FAB).
+Do not place a FAB outside of a bottom app bar, as it makes it harder to reach.
+Don't attach a bottom app bar to the top of the keyboard.
+Don't place navigation actions in a bottom app bar, as they can be covered by temporary surfaces.
+On a home screen, don't place a navigation menu control in both a top and bottom app bar. Only one app bar should have this control.
+Don't place a snackbar in front of a bottom app bar or FAB.
+
+https://material.io/design/components/app-bars-top.html
+Don't place imagery in a bar that makes the top app bar's text and icons illegible.
+Don't wrap text in a regular top app bar.
+Don't truncate text, hiding the full title may cause misunderstanding.
+Don't shrink text to fit on a single line.
+
+https://material.io/design/components/backdrop.html
+Don't use the swipe gesture on the front layer to reveal the back layer. 
+Don't let front layer content extend beyond its container, overlapping the back layer. 
+
+https://material.io/design/components/banners.html
+Only one banner should be shown at a time.
+Don't include links in a banner message. All available actions should be represented as buttons.
+Don't combine buttons with different emphasis levels, which could appear to promote one action over another.
+Don't use a close affordance icon as the only method of dismissing a banner. All actions should be shown as text buttons.
+An icon used as an illustration can be ambiguous and make a banner too prominent in a layout. Illustrations support the banner message and aren't the primary method of communication.
+The surface containing a banner should be clearly distinguished from the top app bar surface.
+Banners shouldn't appear in front of the top bar.
+Avoid stacking multiple banners.
+
+https://material.io/design/components/bottom-navigation.html
+Don't use a bottom navigation bar for fewer than three destinations (use tabs instead). 
+Don't use more than five destinations. For those cases, try tabs or a navigation drawer.
+Don't truncate text. The truncation may obscure important destination information.
+Don't shrink text to fit on a single line.
+Avoid using lateral motion to transition between views. Lateral motion is reserved for navigating between peers.
+Avoid using different colored icons and text labels.
+Ensure legible color contrast when placing colored icons and text on a colored bottom navigation bar.
+Bottom navigation bar destinations don't scroll. 
+
+https://material.io/design/components/buttons.html
+Don't wrap text. For maximum legibility,  a text label should remain on a single line.
+Avoid using two contained buttons next to one another if they don't have the same fill color.
+Don't place a button below another button if there is space to place them side by side.
+Avoid text labels that are too long. They should be concise.
+An outlined button's width shouldn't be shorter than its text.
+A button container's width shouldn't be shorter than its text.
+Don't vertically align an icon and text in the center of a contained button.
+Don't use two icons in the same button.
+
+https://material.io/design/components/buttons-floating-action-button.html
+Don't display multiple FABs on a single screen.
+Don't layer badges or other elements in front of a FAB.
+Don't use ambiguous iconography.
+Don't place text in a regular FAB.
+Individual components, such as cards, cannot each have their own FAB.
+Do not use FABs for minor, overflow, unclear, or destructive actions.
+When switching between tabs, FABs don't move in unison with screen content.
+A speed dial should include at least three options.
+A speed dial should include no more than six options.
+A FAB shouldn't transform into unrelated actions.
+Speed dial options shouldn't include an overflow menu.
+Don't use an action menu with fewer than three options.
+An action menu shouldn't include more than six options, as action menus don't support scrolling.
+An extended FAB can't have an icon without a text label.
+Avoid wrapping text.
+
+https://material.io/design/components/cards.html
+Cards don't flip over to reveal information.
+Cards should not contain swipeable content (such as an image carousel or pagination). Swipe gestures should also not cause portions of cards to detach upon swipe.
+Don't move cards behind other cards.
+Don't let cards bump other elements out of the way. When a card is picked up, it appears in front of all elements (except app bars and navigation).
+On mobile, cards cannot internally scroll, as it could cause two scroll bars to be displayed.
+The container for a collection should not be a card, and  the entire surface area of the container should not be interactive.
+
+https://material.io/design/components/chips.html
+Choice chips shouldn't present only a single option.
+Filter chips should not present only a single option.
+
+
+https://material.io/design/components/dialogs.html
+Don't use dialog titles that pose an ambiguous question.
+Dismissive actions (1) are placed to the left of confirming actions.
+Avoid presenting users with unclear choices. âCancelâ doesn't make sense here because no clear action is proposed.
+The âLearn moreâ action (1) navigates away from this dialog, potentially leaving it in an indeterminate state.
+Don't use action text that fails to indicate what the selection will do. âCancelâ and âDeleteâ better indicate what will occur in this dialog.
+Don't display text buttons in simple dialogs. The choice itself is actionable when tapped.
+Don't include dismissive actions like âCancelâ in a simple dialog. Users can tap anywhere outside the dialog to close it.
+Don't provide a single action, as it's unclear how to dismiss the dialog.
+A âCloseâ button (1) is vague because it does not indicate whether changes will be saved or discarded.
+Avoid any navigation icon other than âX.â The up arrow (1) indicates the view's state is being saved, which isn't the case in a full-screen dialog.
+
+https://material.io/design/components/dividers.html
+Don't use dividers to separate individual items.
+
+https://material.io/design/components/image-lists.html
+Don't allow swipe gestures on individual image list items. Image lists should be perceived as a group.
+Quilted image lists shouldn't display text below the image container, as it disrupts the layout.
+
+https://material.io/design/components/navigation-drawer.html
+Don't open a navigation drawer from the right side of the screen unless the app is set to a right-to-left language.
+Don't wrap label text.
+Don't shrink text size in order to fit a text label on a single line.
+Don't use the same icon to represent different primary destinations.
+Don't apply icons to some destinations and not others. Icons should be used for all destinations, or none.
+Don't use dividers to separate individual destinations.
+If a navigation drawer is clipped by a top app bar, don't place a branding element or product name in the header. In this case the top app bar is a more suitable place for that content.
+Don't extend the height of a drawer beyond its contents.
+Don't open a bottom drawer to half the screen height in landscape mode.
+Don't scroll a bottom drawer's contents when it's not at full-screen height.
+Don't activate more than one drawer item at a time.
+
+https://material.io/design/components/progress-indicators.html
+Don't apply progress indicators to every button in your app. They can unnecessarily interrupt the user's task.
+
+https://material.io/design/components/selection-controls.html
+Don't use checkboxes when only one item can be selected from a list. Use radio buttons instead.
+Don't use radio buttons to toggle an option on or off.
+If a list consists of multiple options, avoid using switches. Use checkboxes instead because they take up less space.
+
+https://material.io/design/components/sheets-bottom.html
+Don't inset all sides of a bottom sheet from screen edges. This can make it hard to see and allow it to be confused for other components, such as snackbars.
+Don't use an invisible scrim for modal bottom sheets. This can mislead users about their ability to interact with the rest of the screen.
+Don't make tall bottom sheets full-screen upon opening. This places the top content immediately out of reach for users on mobile devices.
+Don't use a floating action button in place of an expanding bottom sheet. Floating action buttons are meant for actions only.
+Don't increase the height or width of a collapsed expanding bottom sheet by stacking elements, wrapping text, or using long labels.
+Don't add additional actions to a collapsed bottom sheet. Those actions should only appear when the sheet is expanded, in the expanded area.
+Don't place expanding bottom sheets along the leading edge of the screen. In this layout, the placement of the collapsed sheet obstructs headings and actions.
+
+https://material.io/design/components/sheets-side.html
+Don't fully inset a side sheet from the screen edges. This makes the sheet's position and scroll behavior unclear, while obscuring primary content.
+Don't allow horizontal scrolling in a side sheet or layout in a way that suggests horizontal scrolling. A side sheet's narrow width leaves limited space to fully view items.
+Don't place a side sheet (2) along the same screen edge as a navigation drawer (1), as the sheet may get covered frequently by an elevated navigation drawer (or be confused for navigation itself).
+Don't use an invisible scrim. This can mislead users about their ability to interact with the rest of the screen.
+
+https://material.io/design/components/snackbars.html
+Don't place icons in snackbars. If your message needs an icon, consider using an alert.
+Avoid significantly altering the shape of a snackbar container.
+Avoid displaying a snackbar container without elevation.
+The text label shouldn't share the same color as the text button.
+Don't use a filled or elevated button in a snackbar, as it draws too much attention.
+Avoid stacking snackbars on top of one another. 
+Don't animate other components along with snackbar animations, such as the floating action button.
+Avoid placing snackbars in front of navigation components.
+Don't place a snackbar in front of a FAB.
+Don't place a snackbar behind a FAB.
+Avoid pushing bottom persistent elements up when snackbars appear.
+Avoid placing snackbars flushed to one edge of the layout.
+Avoid placing consecutive snackbars side by side or next to one another.
+
+https://material.io/design/components/tabs.html
+Don't use tabs to move through sequential content that needs to be read in a particular order.
+Avoid using tabs for comparing content across multiple tabs, such as different sizes of the same item.
+Don't resize text labels to fit them onto a single line. If labels are too long, wrap text to a second line or use scrollable tabs.
+Don't truncate labels unless required, as truncated text can impede comprehension.
+Don't mix tabs that contain only text, with tabs that contain only icons. Use either all text labels, all icon labels, or both, across all labels.
+Don't use tabs with both icons and text labels on only some tabs, but not others.
+Avoid placing swipeable items in the content area of a UI that has tabs, as the user may mistakenly swipe the wrong component.
+Don't scroll tabs behind a top app bar. When tabs are attached to a component, they should appear and move as a single unit.
+Don't place tabs below one another.
+Don't use tabs with short top app bars, or top app bars that transition to short top app bars on scroll.
+Don't attach tabs to bottom navigation as it can cause confusion about what action or tab controls which content.
+Don't place tabs above content that they don't control. If tabs only change a section of the UI, embed them within that section. Scaled down to 62.5%
+Avoid using inconsistent padding on each tab.
+
+https://material.io/design/components/text-fields.html
+When using a both types of text fields, don't use both next to each other, or within the same form.
+Label text shouldn't be truncated. Keep it short, clear, and fully visible.
+Label text shouldn't take up multiple lines.
+Don't place error text under helper text, as their appearance will shift content.
+Don't design text fields to look similar to buttons, as they could be mistaken for buttons.
+
+https://material.io/design/components/tooltips.html
+Don't crop tooltips.
+
+https://material.io/design/usability/accessibility.html
+This UI hasn't scaled well with magnification and large text. Portions of content are overlapping or cut off.
+
+https://material.io/design/usability/bidirectionality.html
+LTR text shouldn't be displayed in reverse order.
+An RTL off state doesn't need an RTL slash. 
+Do not mirror media playback or progress bars. The direction of these elements represents the direction of the tape, not the direction of time.
+
+https://material.io/design/platform-guidance/android-fingerprint.html
+Don't use a multicolored Fingerprint icon.
+
+
+https://material.io/design/platform-guidance/android-notifications.html
+Don't send holiday or birthday greetings in the form of notifications.
+Don't interrupt the user in the middle of a task for the sole purpose of asking if you're doing a good job.
+Don't include text actions that duplicate the behavior of tapping on the notification body.
+The content title shows the app name, which is redundant with the header area and uses up available characters.
+The large icon is not intended for branding.
