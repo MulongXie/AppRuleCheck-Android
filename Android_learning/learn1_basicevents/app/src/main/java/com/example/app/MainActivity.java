@@ -1,4 +1,4 @@
-package com.example.empty_app;
+package com.example.app;
 
 import android.os.Bundle;
 import android.app.Activity;
