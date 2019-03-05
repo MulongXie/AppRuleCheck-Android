@@ -17,7 +17,7 @@ import android.text.TextUtils;
 import java.util.HashMap;
 
 public class StudentsProvider extends ContentProvider {
-    static final String PROVIDER_NAME = "com.example.provider.College";
+    static final String PROVIDER_NAME = "StudentsProvider";
     static final String URL = "content://" + PROVIDER_NAME + "/students";
     static final Uri CONTENT_URI = Uri.parse(URL);
 

@@ -1,0 +1,8 @@
+
+Debugging:
+	learn3, learn4
+
+
+Issues:
+	learn4: connnection with database
+		content provider URL setting	
