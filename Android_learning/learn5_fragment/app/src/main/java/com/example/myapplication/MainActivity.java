@@ -18,11 +18,11 @@ public class MainActivity extends Activity {
 
         if (config.orientation == Configuration.ORIENTATION_LANDSCAPE){
             LandscapeFragment ls_fragment = new LandscapeFragment();
-            fragmenttransaction.replace(R.id.content, ls_fragment);
+            fragmenttransaction.replace(R.id.landscape_fragment, ls_fragment);
         }
         else {
             PortraitFragment pm_fragment = new PortraitFragment();
-            fragmenttransaction.replace(R.id.content, pm_fragment);
+            fragmenttransaction.replace(R.id.portrait_fragment, pm_fragment);
         }
         fragmenttransaction.commit();
     }
