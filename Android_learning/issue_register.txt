@@ -1,6 +1,8 @@
 
 Debugging:
-	learn3, learn4
+	learn3 
+	learn4: the connnection with database
+	learn5: trivial bugs
 
 
 Issues:
