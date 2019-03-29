@@ -4,3 +4,5 @@ Attempt to translate the Google APP Design Guide doc into programming rules to a
 Feasibility Exploiting
 
 Less Worthy
+
+[SUSPENDED]
