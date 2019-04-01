@@ -6,3 +6,5 @@ Feasibility Exploiting
 Less Worthy
 
 [SUSPENDED]
+
+To protect the world from being destroied 
